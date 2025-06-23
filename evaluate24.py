@@ -150,7 +150,7 @@ if __name__ == "__main__":
     opponent = MaxDamagePlayer()
     env_player = SimpleRLPlayer(opponent=opponent)
 
-    model = A2C.load("\XXZL\B3A\projectA\A2C/new_A2C\model07282117.zip")
+    model = A2C.load("D:\\XXZL\\B3A\\project\\A\\A2C\\new_A2C\\model07282117")
 
     obs, reward, done, _, info = env_player.step(0)
 
